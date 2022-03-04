@@ -22,9 +22,10 @@ printf("Hello World") --> std::cout << "Hello World";
 int main() 
 {
     float cm, inches;
-    std::cout << "Enter a length in cm : ";
-    std::cin >> cm;
+    std::cout<<"Enter a length in cm :";
+    std::cin>>cm;
     inches = cm / 2.54;
-    std::cout << "Length in inches is "<<inches;
+    std::cout<<"Length in inches is :\n"; 
+    std::cout<<inches;
     return 0;
 }  
